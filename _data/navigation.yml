@@ -1,0 +1,9 @@
+main:
+  - title: "课程"
+    url: /courses/
+  - title: "活动"
+    url: /activities/
+  - title: "文章"
+    url: /posts/
+  - title: "关于"
+    url: /about/
