@@ -1,6 +1,7 @@
 # Nice Day !
 
 The website is powered by [Minimal Mistakes Jekyll](https://github.com/mmistakes/minimal-mistakes).
+[![pages-build-deployment](https://github.com/FDU-MATH/FDU-MATH.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/FDU-MATH/FDU-MATH.github.io/actions/workflows/pages/pages-build-deployment)
 
 ## LICENSE
 
