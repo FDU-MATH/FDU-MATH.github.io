@@ -14,7 +14,7 @@ tags:
 
 更多内容请访问项目库页面<a href='https://github.com/FDU-MATH/fdu-math.github.io'>fdu-math</a>.
 
-  首倡人
-  [Genz (Gengzhi Yang)](https://github.com/Genz17) 
-  [maix00 (WONG Yee-young)](https://github.com/maix00)
+  首倡人<br />
+  [Genz (Gengzhi Yang)](https://github.com/Genz17) <br />
+  [maix00 (WONG Yee-young)](https://github.com/maix00)<br />
 2022年10月
