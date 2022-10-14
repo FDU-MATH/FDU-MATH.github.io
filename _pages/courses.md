@@ -581,7 +581,7 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                 </tr>
                 <tr>
                     <td><a href='https://fdu-math.github.io/courses/class-id/MATH130009h.01'>MATH130009h.01</a></td>
-                    <td><a href='https://fdu-math.github.io/courses/MATH130009'>概率论(H)</a></td>
+                    <td><a href='https://fdu-math.github.io/courses/MATH130009h'>概率论(H)</a></td>
                     <td>4</td>
                     <td><a href='https://fdu-math.github.io/teachers/谢践生'>谢践生</a></td>
                     <td>教授</td>
@@ -605,7 +605,7 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                 </tr>
                 <tr>
                     <td><a href='https://fdu-math.github.io/courses/class-id/MATH130011h.01'>MATH130011h.01</a></td>
-                    <td><a href='https://fdu-math.github.io/courses/MATH130011'>泛函分析(H)</a></td>
+                    <td><a href='https://fdu-math.github.io/courses/MATH130011h'>泛函分析(H)</a></td>
                     <td>4</td>
                     <td><a href='https://fdu-math.github.io/teachers/姚一隽'>姚一隽</a><br /><a href='https://fdu-math.github.io/teachers/章嘉雯'>章嘉雯</a><br /><a href='https://fdu-math.github.io/teachers/伊泽霖'>伊泽霖</a></td>
                     <td>教授<br />青年副研究员<br />高等学校教师</td>
@@ -621,7 +621,7 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                 </tr>
                 <tr>
                     <td><a href='https://fdu-math.github.io/courses/class-id/MATH130012h.01'>MATH130012h.01</a></td>
-                    <td><a href='https://fdu-math.github.io/courses/MATH130012'>数理方程（H）</a></td>
+                    <td><a href='https://fdu-math.github.io/courses/MATH130012h'>数理方程（H）</a></td>
                     <td>4</td>
                     <td><a href='https://fdu-math.github.io/teachers/雷震'>雷震</a></td>
                     <td>教授</td>
@@ -645,7 +645,7 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                 </tr>
                 <tr>
                     <td><a href='https://fdu-math.github.io/courses/class-id/MATH130017h.01'>MATH130017h.01</a></td>
-                    <td><a href='https://fdu-math.github.io/courses/MATH130017'>微分流形(H)</a></td>
+                    <td><a href='https://fdu-math.github.io/courses/MATH130017h'>微分流形(H)</a></td>
                     <td>4</td>
                     <td><a href='https://fdu-math.github.io/teachers/东瑜昕'>东瑜昕</a></td>
                     <td>教授</td>
@@ -853,7 +853,7 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                 </tr>
                 <tr>
                     <td><a href='https://fdu-math.github.io/courses/class-id/MATH130112h.01'>MATH130112h.01</a></td>
-                    <td><a href='https://fdu-math.github.io/courses/MATH130112'>代数拓扑(H)</a></td>
+                    <td><a href='https://fdu-math.github.io/courses/MATH130112h'>代数拓扑(H)</a></td>
                     <td>4</td>
                     <td><a href='https://fdu-math.github.io/teachers/吕志'>吕志</a></td>
                     <td>教授</td>
@@ -933,7 +933,7 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                 </tr>
                 <tr>
                     <td><a href='https://fdu-math.github.io/courses/class-id/MATH130143h.03'>MATH130143h.03</a></td>
-                    <td><a href='https://fdu-math.github.io/courses/MATH130143'>现代代数学II(H)</a></td>
+                    <td><a href='https://fdu-math.github.io/courses/MATH130143h'>现代代数学II(H)</a></td>
                     <td>4</td>
                     <td><a href='https://fdu-math.github.io/teachers/王庆雪'>王庆雪</a></td>
                     <td>副教授</td>
