@@ -177,48 +177,48 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                     <td>MATH120011.01</td>
                     <td>高等代数Ⅰ</td>
                     <td>5</td>
-                    <td>朱胜林;齐子豪</td>
-                    <td>教授;</td>
+                    <td>朱胜林,<br />齐子豪</td>
+                    <td>教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH120011.02</td>
                     <td>高等代数Ⅰ</td>
                     <td>5</td>
-                    <td>朱胜林;齐子豪</td>
-                    <td>教授;</td>
+                    <td>朱胜林,<br />齐子豪</td>
+                    <td>教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH120011.03</td>
                     <td>高等代数Ⅰ</td>
                     <td>5</td>
-                    <td>谢启鸿;冯鸽</td>
-                    <td>教授;</td>
+                    <td>谢启鸿,<br />冯鸽</td>
+                    <td>教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH120011.04</td>
                     <td>高等代数Ⅰ</td>
                     <td>5</td>
-                    <td>谢启鸿;冯鸽</td>
-                    <td>教授;</td>
+                    <td>谢启鸿,<br />冯鸽</td>
+                    <td>教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH120011.05</td>
                     <td>高等代数Ⅰ</td>
                     <td>5</td>
-                    <td>李骏;韩京俊;江辰;周杨</td>
-                    <td>教授;青年研究员;青年研究员;青年研究员</td>
+                    <td>李骏,<br />韩京俊,<br />江辰,<br />周杨</td>
+                    <td>教授,<br />青年研究员,<br />青年研究员,<br />青年研究员</td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH120011.06</td>
                     <td>高等代数Ⅰ</td>
                     <td>5</td>
-                    <td>李骏;韩京俊;江辰;周杨</td>
-                    <td>教授;青年研究员;青年研究员;青年研究员</td>
+                    <td>李骏,<br />韩京俊,<br />江辰,<br />周杨</td>
+                    <td>教授,<br />青年研究员,<br />青年研究员,<br />青年研究员</td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
@@ -233,32 +233,32 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                     <td>MATH120014.01</td>
                     <td>数学分析AI</td>
                     <td>5</td>
-                    <td>严金海;王丽丹</td>
-                    <td>副教授;</td>
+                    <td>严金海,<br />王丽丹</td>
+                    <td>副教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH120014.02</td>
                     <td>数学分析AI</td>
                     <td>5</td>
-                    <td>严金海;王丽丹</td>
-                    <td>副教授;</td>
+                    <td>严金海,<br />王丽丹</td>
+                    <td>副教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH120014.03</td>
                     <td>数学分析AI</td>
                     <td>5</td>
-                    <td>吴昊;翟剑</td>
-                    <td>教授;青年副研究员</td>
+                    <td>吴昊,<br />翟剑</td>
+                    <td>教授,<br />青年副研究员</td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH120014.04</td>
                     <td>数学分析AI</td>
                     <td>5</td>
-                    <td>吴昊;翟剑</td>
-                    <td>教授;青年副研究员</td>
+                    <td>吴昊,<br />翟剑</td>
+                    <td>教授,<br />青年副研究员</td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
@@ -481,32 +481,32 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                     <td>MATH130001.01</td>
                     <td>数学分析III</td>
                     <td>5</td>
-                    <td>李洪全;杨志伟</td>
-                    <td>教授;</td>
+                    <td>李洪全,<br />杨志伟</td>
+                    <td>教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH130001.02</td>
                     <td>数学分析III</td>
                     <td>5</td>
-                    <td>李洪全;杨志伟</td>
-                    <td>教授;</td>
+                    <td>李洪全,<br />杨志伟</td>
+                    <td>教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH130001.03</td>
                     <td>数学分析III</td>
                     <td>5</td>
-                    <td>肖体俊;姚鹿鸣</td>
-                    <td>教授;</td>
+                    <td>肖体俊,<br />姚鹿鸣</td>
+                    <td>教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH130001.04</td>
                     <td>数学分析III</td>
                     <td>5</td>
-                    <td>肖体俊;姚鹿鸣</td>
-                    <td>教授;</td>
+                    <td>肖体俊,<br />姚鹿鸣</td>
+                    <td>教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
@@ -609,8 +609,8 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                     <td>MATH130011h.01</td>
                     <td>泛函分析(H)</td>
                     <td>4</td>
-                    <td>姚一隽;章嘉雯;伊泽霖</td>
-                    <td>教授;青年副研究员;高等学校教师</td>
+                    <td>姚一隽,<br />章嘉雯,<br />伊泽霖</td>
+                    <td>教授,<br />青年副研究员,<br />高等学校教师</td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
@@ -697,8 +697,8 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                     <td>MATH130032.01</td>
                     <td>动力系统</td>
                     <td>3</td>
-                    <td>梁振国;张国华</td>
-                    <td>副教授;教授</td>
+                    <td>梁振国,<br />张国华</td>
+                    <td>副教授,<br />教授</td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
@@ -817,16 +817,16 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                     <td>MATH130091.01</td>
                     <td>数学分析原理</td>
                     <td>5</td>
-                    <td>周子翔;邵杰</td>
-                    <td>教授;</td>
+                    <td>周子翔,<br />邵杰</td>
+                    <td>教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH130091.02</td>
                     <td>数学分析原理</td>
                     <td>5</td>
-                    <td>周子翔;邵杰</td>
-                    <td>教授;</td>
+                    <td>周子翔,<br />邵杰</td>
+                    <td>教授,<br /></td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
@@ -945,32 +945,32 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                     <td>MATH130152.01</td>
                     <td>经典数学思想I</td>
                     <td>2</td>
-                    <td>傅吉祥;沈维孝;姚一隽</td>
-                    <td>教授;教授;教授</td>
+                    <td>傅吉祥,<br />沈维孝,<br />姚一隽</td>
+                    <td>教授,<br />教授,<br />教授</td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH130154.01</td>
                     <td>数学分析I（英才班）</td>
                     <td>6</td>
-                    <td>楼红卫;蔡圆</td>
-                    <td>教授;青年副研究员</td>
+                    <td>楼红卫,<br />蔡圆</td>
+                    <td>教授,<br />青年副研究员</td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH130154.02</td>
                     <td>数学分析I（英才班）</td>
                     <td>6</td>
-                    <td>楼红卫;蔡圆</td>
-                    <td>教授;青年副研究员</td>
+                    <td>楼红卫,<br />蔡圆</td>
+                    <td>教授,<br />青年副研究员</td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
                     <td>MATH130154.03</td>
                     <td>数学分析I（英才班）</td>
                     <td>6</td>
-                    <td>楼红卫;蔡圆</td>
-                    <td>教授;青年副研究员</td>
+                    <td>楼红卫,<br />蔡圆</td>
+                    <td>教授,<br />青年副研究员</td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
@@ -1001,8 +1001,8 @@ function searchColFunc(storeId, keyId, searchCol, refreshBool){
                     <td>MATH130166.01</td>
                     <td>经典物理选讲</td>
                     <td>3</td>
-                    <td>周子翔;梁振国;陈曦</td>
-                    <td>教授;副教授;青年研究员</td>
+                    <td>周子翔,<br />梁振国,<br />陈曦</td>
+                    <td>教授,<br />副教授,<br />青年研究员</td>
                     <td>数学科学学院</td>
                 </tr>
                 <tr>
