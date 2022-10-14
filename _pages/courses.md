@@ -25,6 +25,11 @@ document.onkeyup = function(e){
         searchColFunc(storeId, document.getElementById("keySearchCourseNumber2223F"), 0);
         searchColFunc(storeId, document.getElementById("keySearchCourseName2223F"), 1);
         searchColFunc(storeId, document.getElementById("keySearchTeacherName2223F"), 3);
+        if ((document.getElementById("keySearchCourseNumber2223F").value == '')&&(document.getElementById("keySearchCourseName2223F").value == '')&&(document.getElementById("keySearchTeacherName2223F").value == '')){
+            for(var i=1;i<rowsLength;i++){
+                storeId.rows[i].style.display = '';
+            }
+        }
     }
 };
 function searchColFunc(storeId, keyId, searchCol){
