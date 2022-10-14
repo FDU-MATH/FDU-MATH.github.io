@@ -3,7 +3,7 @@
 lizehao2019:
   name        : "李泽昊"
   bio         : "2019级本科生，数院大神. "
-  # avatar      : "/assets/docs/alumni/"
+  avatar      : "/assets/images/default-bio-photo.jpg"
   # links:
   #   - label: "Email"
   #     icon: "fas fa-fw fa-envelope-square"
