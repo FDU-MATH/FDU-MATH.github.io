@@ -8,13 +8,16 @@ file["课程名称"] = '<a href=\'https://fdu-math.github.io/courses/' + file["�
 
 file["课程序号"] = '<a href=\'https://fdu-math.github.io/courses/course-id/' + file["课程序号"] + '\'>' + file["课程序号"] + '</a>'
 
-file["职称"] = file["职称"].str.replace(',','<br />')
-
 for idx in range(len(file)):
     tmp = file['教师'][idx]
+    tmp2 = file['职称'][idx]
     tmp = tmp.split(',')
+    tmp2 = tmp2.split(',')
     for idxx in range(len(tmp)):
         tmp[idxx] = '<a href=\'https://fdu-math.github.io/teachers/' + tmp[idxx].replace(' ','_') + '\'>' + tmp[idxx] + '</a>'
+        if tmp2[idxx] == '':
+            tmp2[idxx] = 'Null'
     file['教师'][idx] = '<br />'.join(tmp)
+    file['职称'][idx] = '<br />'.join(tmp2)
 
 file.to_csv("test2.csv", index=False)
