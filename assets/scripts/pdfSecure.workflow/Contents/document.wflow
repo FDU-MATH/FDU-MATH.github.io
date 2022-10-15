@@ -52,22 +52,233 @@
 				<dict>
 					<key>fileNames</key>
 					<array>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120011.05-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120011.06-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120016.07-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120016.09-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120016.12-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120020.02-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120021.01-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120021.02-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120021.03-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120021.04-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120021.05-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH120021.08-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH130018.01-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH130043.01-2022-2023-1.pdf</string>
-						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/MATH130152.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH010001.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH110001.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH115001.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120003.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120003.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120003.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120003.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120005.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120007.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120007.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120007.05-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120010.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.05-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.06-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120014.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120014.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120014.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120014.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.06-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.07-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.08-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.09-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.12-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120020.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.05-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.08-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120044.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.05-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.06-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.07-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.08-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130001.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130001.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130001.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130001.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130004.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130004.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130004.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130004.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130005.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130005.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130005.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130006.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130009.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130009h.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130011.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130011.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130011h.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130012.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130012h.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130013.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130013.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130017h.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130018.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130022.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130026.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130027.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130032.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130036.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130043.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130052.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130055.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130056.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130057.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130059.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130067.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130068.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130072.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130073.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130074.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130080.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130091.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130091.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130108.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130111.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130112.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130112h.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130113.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130114.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130121.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130126.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130130.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130133.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130137.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130139.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130141.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130143h.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130152.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130154.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130154.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130159.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130162.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130163.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130166.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130167.01-2022-2023-1.pdf</string>
 					</array>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>fileNames</key>
+					<array>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH010001.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH110001.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH115001.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120003.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120003.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120003.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120003.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120005.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120007.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120007.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120007.05-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120010.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.05-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120011.06-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120014.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120014.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120014.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120014.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.06-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.07-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.08-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.09-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120016.12-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120020.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.05-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120021.08-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120044.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.05-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.06-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.07-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH120045.08-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130001.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130001.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130001.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130001.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130004.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130004.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130004.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130004.04-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130005.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130005.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130005.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130006.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130009.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130009h.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130011.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130011.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130011h.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130012.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130012h.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130013.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130013.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130017h.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130018.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130022.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130026.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130027.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130032.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130036.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130043.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130052.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130055.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130056.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130057.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130059.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130067.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130068.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130072.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130073.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130074.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130080.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130091.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130091.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130108.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130111.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130112.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130112h.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130113.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130114.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130121.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130126.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130130.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130133.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130137.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130139.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130141.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130143h.03-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130152.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130154.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130154.02-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130159.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130162.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130163.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130166.01-2022-2023-1.pdf</string>
+						<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test/MATH130167.01-2022-2023-1.pdf</string>
+					</array>
+					<key>temporary items path</key>
+					<string>/var/folders/p3/dyy7mgv123582_dscz451y7c0000gn/T/FC166C95-E386-4EAA-90A1-5B031CA4EAB4/1/com.apple.Automator.SpecifiedFiles</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.SpecifiedFiles</string>
@@ -116,12 +327,10 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>301.500000:239.000000</string>
+				<string>309.000000:239.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -152,6 +361,8 @@
 				<dict>
 					<key>password</key>
 					<dict/>
+					<key>verifyPass</key>
+					<dict/>
 				</dict>
 				<key>AMProvides</key>
 				<dict>
@@ -170,6 +381,15 @@
 				<dict>
 					<key>password</key>
 					<string>subuchin</string>
+					<key>verifyPass</key>
+					<string>subuchin</string>
+				</dict>
+				<key>ActionRuntimeParameters</key>
+				<dict>
+					<key>password</key>
+					<string>subuchin</string>
+					<key>temporary items path</key>
+					<string>/var/folders/p3/dyy7mgv123582_dscz451y7c0000gn/T/FC166C95-E386-4EAA-90A1-5B031CA4EAB4/1/com.apple.action.encryptpdfdocument</string>
 					<key>verifyPass</key>
 					<string>subuchin</string>
 				</dict>
@@ -196,6 +416,8 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>4ED64FDC-9778-4011-8851-6DC769B14364</string>
+				<key>ShowWhenRun</key>
+				<false/>
 				<key>UUID</key>
 				<string>06FB9BB1-8E66-4207-B252-2E6BFABF27BE</string>
 				<key>UnlocalizedApplications</key>
@@ -218,17 +440,15 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>location</key>
-				<string>301.500000:488.000000</string>
+				<string>309.000000:280.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Encrypt PDF Documents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -280,7 +500,7 @@
 					<key>replaceExisting</key>
 					<true/>
 					<key>toDirectory</key>
-					<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus</string>
+					<string>~/Desktop/fdu-math.github.io/assets/docs/courses/syllabus/test2</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.CopyFiles</string>
@@ -297,16 +517,16 @@
 				<key>Class Name</key>
 				<string>AMCopyFilesAction</string>
 				<key>InputUUID</key>
-				<string>7F7FDF95-8EB4-4E75-8CE6-3179AB60EA8B</string>
+				<string>2565E9CC-E3C3-44F8-82D8-3BF252A1FEF8</string>
 				<key>Keywords</key>
 				<array>
 					<string>File</string>
 					<string>Copy</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>81BD57BE-3F34-4EB3-9FCE-8A717A5D9395</string>
+				<string>AD4271B3-2051-4A06-B266-5ABB3F06BD3A</string>
 				<key>UUID</key>
-				<string>7FFFFCEF-9020-4BC4-A3EB-D8D146F13194</string>
+				<string>EA44AA40-DDBE-4048-ABA6-688BACCFDF32</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -340,12 +560,10 @@
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>301.500000:588.000000</string>
+				<string>309.000000:380.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Copy Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -355,14 +573,14 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1726CFE7-00CD-4A86-9AA9-17D63705B27F</key>
+		<key>2CE0A49F-89A4-463F-B383-D27C59CD2821</key>
 		<dict>
 			<key>from</key>
 			<string>06FB9BB1-8E66-4207-B252-2E6BFABF27BE - 06FB9BB1-8E66-4207-B252-2E6BFABF27BE</string>
 			<key>to</key>
-			<string>7FFFFCEF-9020-4BC4-A3EB-D8D146F13194 - 7FFFFCEF-9020-4BC4-A3EB-D8D146F13194</string>
+			<string>EA44AA40-DDBE-4048-ABA6-688BACCFDF32 - EA44AA40-DDBE-4048-ABA6-688BACCFDF32</string>
 		</dict>
-		<key>8A315B72-1AF9-4AD7-B33B-8D12C52DE3DA</key>
+		<key>BE09E527-173C-453F-82E3-0C403486EC05</key>
 		<dict>
 			<key>from</key>
 			<string>DDAD8592-A44A-4DCF-BE28-98FE4F2B6D8A - DDAD8592-A44A-4DCF-BE28-98FE4F2B6D8A</string>
