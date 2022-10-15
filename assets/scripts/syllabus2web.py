@@ -3,7 +3,7 @@
 import os
 import copy
 
-target_folder = '../docs/courses/syllabus'
+target_folder = '../../courses/syllabus'
 to_target_folder = '../docs/classes/'
 file = os.popen('cd ' + target_folder + '; ls;')
 file2 = os.popen('cd ' + to_target_folder + '; ls;')
@@ -45,5 +45,5 @@ for idx in range(len(namelist)):
                 '\n'
                 '<a href=\'https://fdu-math.github.io/courses/' + temp +'\'>链接至[' + temp + ']课程页面<a>\n\n# ' + namelist[idx][1] + '\n'
                 '\n'
-                '<a href=\'../courses/syllabus/' + namelist0[idx][0] + '-' + namelist0[idx][1] + '-' + namelist0[idx][2] + '-' + namelist0[idx][3] + ' (Encrypted).pdf\'>课程大纲</a>'
+                '<a href=\'https://fdu-math.github.io/courses/syllabus/' + namelist0[idx][0] + '-' + namelist0[idx][1] + '-' + namelist0[idx][2] + '-' + namelist0[idx][3] + ' (Encrypted).pdf\'>课程大纲</a>'
             )

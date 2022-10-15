@@ -3,7 +3,7 @@
 import doc2pdf as dp
 import os
 
-target_folder = '../docs/courses/syllabus/test'
+target_folder = '../../courses/syllabus/test'
 file = os.popen('cd ' + target_folder + '; ls;')
 
 for line in file:
