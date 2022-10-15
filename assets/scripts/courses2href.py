@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 
 import pandas as pd
+import os
 
 target = '../docs/courses/courses_undergrad_2022_2023_Fall.csv'
 # to_target_csv = '../docs/courses/courses_undergrad_2022_2023_Fall_href.csv'
@@ -23,8 +24,7 @@ for idx in range(len(file)):
     file['教师'][idx] = '<br />'.join(tmp)
     file['职称'][idx] = '<br />'.join(tmp2)
     file['课程名称'][idx] = '<a href=\'https://fdu-math.github.io/courses/' + tmp3[0] + '\'>' + file["课程名称"][idx] + '</a>'
-
-file["课程序号"] = '<a href=\'https://fdu-math.github.io/courses/class-id/' + file["课程序号"] + '\'>' + file["课程序号"] + '</a>'
+    file["课程序号"][idx] = '<a href=\'https://fdu-math.github.io/courses/class-id/' + tmp3[0] + '-' + tmp3[1] + '\'>' + file["课程序号"][idx] + '</a>'
 
 # file.to_csv(to_target_csv, index=False)
 file.to_html(to_target_html, index=False)
@@ -36,5 +36,4 @@ with open(to_target_html,"r")as file1, open(to_target_html_revised,"a")as file2:
     for line in temp1:
         file2.write(str(line).replace('&lt;','<').replace('&gt;','>'))
 
-import os
 os.remove(to_target_html)
