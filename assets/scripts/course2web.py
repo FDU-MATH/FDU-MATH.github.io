@@ -117,7 +117,7 @@ for idx in range(len(allCoursesThisSemester)):
             strPartHead = '''---
 title: \'''' + thisCourseName + '[' + thisCourseNumber + ''']\'
 layout: single
-permalink: /courses/class-id/''' + thisCourseNumber + '''
+permalink: /courses/''' + thisCourseNumber + '''
 author_profile: true
 toc: true
 toc_label: \'目录\'

@@ -7,6 +7,7 @@ from itertools import compress
 course_csv = '../docs/courses/courses_undergrad_2022_2023_Fall.csv'
 thisSemesterName = '2022-2023学年第1学期'
 strSemester = '\n\n# ' + thisSemesterName + '\n'
+strPartPosts = '\n## Posts\n\n'
 target_folder = '../../courses/syllabus'
 to_target_folder = '../docs/classes/'
 
@@ -43,7 +44,7 @@ for idx in range(len(allClassesThisSemester)):
     print(thisClassNumber, hasSyllabus)
     if hasSyllabus:
         strSyllabus = '<a href=\'https://fdu-math.github.io/courses/syllabus/' + syllabusFileList[whereSyllabus[0]] + '\'>课程大纲</a>\n'
-    strTeacher = '任课教师: ' + thisClassTeacher + '\n\n'
+    strTeacher = '\n任课教师: ' + thisClassTeacher + '\n\n'
     thisClassNumberBeforeDot = thisClassNumber.split('.')[0]
     thisClassNumberAfterDot = thisClassNumber.split('.')[1]
     boolWebList = [thisClassNumber == webFileBeforeDotList[idxx] for idxx in range(len(webFileBeforeDotList))]
@@ -65,9 +66,9 @@ for idx in range(len(allClassesThisSemester)):
                 index_line = index_line + 1
         if (len(linesTag) == 0): # If there does not exist semester parts
             if hasSyllabus:
-                fileLines.append( strSemester + strSyllabus + strTeacher)
+                fileLines.append( strSemester + strSyllabus + strTeacher + strPartPosts)
             else:
-                fileLines.append( strSemester + strTeacher)
+                fileLines.append( strSemester + strTeacher + strPartPosts)
         else: # If there exists semester parts
             boolWebListLinesTag = [linesTag[idxx][1] for idxx in range(len(linesTag))]
             trueLinesTag = list(compress(range(len(boolWebListLinesTag)), boolWebListLinesTag))
@@ -80,28 +81,42 @@ for idx in range(len(allClassesThisSemester)):
                     index_line = 0
                     findSyllabusBool = False
                     findTeacherBool = False
+                    findPostBool = False
                     for line in fileAlter:
                         if (index_line >= search_range[0]) & (index_line <= search_range[1]):
                             if (line.find('课程大纲') != -1):
                                 findSyllabusBool = True
                             if (line.find('任课教师') != -1):
                                 findTeacherBool = True
+                                thisLine = index_line
+                            if (line.find('Post') != -1):
+                                findPostBool = True
                         index_line = index_line + 1
                     if hasSyllabus:
                         if (findSyllabusBool == False) & (findTeacherBool == False):
-                            fileLines.insert(search_range[0]+1, strSyllabus + strTeacher)
+                            if (findPostBool == False):
+                                fileLines.insert(search_range[0]+1, strSyllabus + strTeacher)
+                            else:
+                                fileLines.insert(search_range[0]+1, strSyllabus + strTeacher)
                         elif (findSyllabusBool == True) & (findTeacherBool == False):
-                            fileLines.insert(search_range[0]+2, strTeacher)
+                            if (findPostBool == False):
+                                fileLines.insert(search_range[0]+2, strTeacher + strPartPosts)
+                            else:
+                                fileLines.insert(search_range[0]+2, strTeacher)
                         elif (findSyllabusBool == False) & (findTeacherBool == True):
-                            fileLines.insert(search_range[0]+1, strSyllabus)
+                            if (findPostBool == False):
+                                fileLines.insert(thisLine+1, strPost)
+                                fileLines.insert(search_range[0]+1, strSyllabus)
+                            else:
+                                fileLines.insert(search_range[0]+1, strSyllabus)
                     else:
                         if (findTeacherBool == False):
                             fileLines.insert(search_range[0]+1, strTeacher)
             else: # If there does not exist a same semester
                 if hasSyllabus:
-                    fileLines.insert(linesTag[0][0], strSemester + strSyllabus + strTeacher)
+                    fileLines.insert(linesTag[0][0], strSemester + strSyllabus + strTeacher + strPartPosts)
                 else:
-                    fileLines.insert(linesTag[0][0], strSemester + strTeacher)
+                    fileLines.insert(linesTag[0][0], strSemester + strTeacher + strPartPosts)
         with open(to_target_folder + thisFileName, "w+") as fileAlter:
             fileAlter.write(''.join(fileLines))
     else:
@@ -120,6 +135,6 @@ toc_sticky: true
 </div>\n
 <a href=\'https://fdu-math.github.io/courses/''' + thisClassNumberBeforeDot + '\'>链接至[' + thisClassNumberBeforeDot + ']课程页面</a>\n'
             if hasSyllabus:
-                file.write(strPartHead + strSemester + strSyllabus + strTeacher)
+                file.write(strPartHead + strSemester + strSyllabus + strTeacher + strPartPosts)
             else:
-                file.write(strPartHead + strSemester + strTeacher)
+                file.write(strPartHead + strSemester + strTeacher + strPartPosts)
