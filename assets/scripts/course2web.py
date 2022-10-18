@@ -4,6 +4,7 @@ import pandas as pd
 import os
 import copy
 from itertools import compress
+import readFile
 
 def courses2html(file, target_html):
     if os.path.exists(target_html):
@@ -46,10 +47,9 @@ courses = courses_df.values.tolist()
 allClassesThisSemesterBeforeDot = [courses[idxx][0].split('.')[0] for idxx in range(len(courses))]
 allCoursesThisSemester = list(set(allClassesThisSemesterBeforeDot))
 
-terminalWebFileIntegral = os.popen('cd ' + to_target_folder + '; ls;')
 webFileBeforeDotList = []
 webFileList = []
-for line in terminalWebFileIntegral:
+for line in os.popen('cd ' + to_target_folder + '; ls;'):
     webFileBeforeDotList.append(line.split('.')[0])
     webFileList.append(line.rstrip('\n'))
 
@@ -62,10 +62,8 @@ strPartPosts = '\n#### Posts\n\n'
 for idx in range(len(allCoursesThisSemester)):
     thisCourseNumber = allCoursesThisSemester[idx]
     boolClasses = [allClassesThisSemesterBeforeDot[idxx] == thisCourseNumber for idxx in range(len(allClassesThisSemesterBeforeDot))]
-    firstClass = list(compress(range(len(boolClasses)), boolClasses))[0]
-    thisCourseName = courses[firstClass][1]
-    thisCourseClasses = courses_df[courses_df['课程名称'] == thisCourseName]
-    courses2html(thisCourseClasses, './test.txt')
+    thisCourseName = courses[list(compress(range(len(boolClasses)), boolClasses))[0]][1]
+    courses2html(courses_df[courses_df['课程名称'] == thisCourseName], './test.txt')
     strTable = []
     index_line = 0
     with open('./test.txt', 'r') as file:
@@ -80,38 +78,24 @@ for idx in range(len(allCoursesThisSemester)):
     os.remove('./test.txt')
     boolWebList = [thisCourseNumber == webFileBeforeDotList[idxx] for idxx in range(len(webFileBeforeDotList))]
     if (len(list(compress(range(len(boolWebList)), boolWebList))) > 0): # If there exists one web page for this course
-        thisFileName = webFileList[boolWebList.index(True)]
-        fileLines = []
-        with open(to_target_folder + thisFileName, "r") as fileAlter:
-            index_line = 0
-            linesTag = []
-            firstTag = 0
-            for line in fileAlter:
-                fileLines.append(line)
-                spacelessLine = line.replace(' ', '')
-                if spacelessLine[0] == '#':
-                    if (firstTag == 0):
-                        firstTag = copy.deepcopy(index_line)
-                    else:
-                        firstTag = min(firstTag, index_line)
-                    taglessLine = spacelessLine.replace('#', '').rstrip('\n')
-                    if (taglessLine == thisSemesterName):
-                        linesTag.append([index_line, True])
-                    elif (taglessLine[0:4].isdigit()):
-                        linesTag.append([index_line, False])
-                index_line = index_line + 1
-        if (len(linesTag) == 0): # If there does not exist semester parts
-            if (firstTag == 0):
+        filePath = to_target_folder + webFileList[boolWebList.index(True)]
+        linesManipulateWebFile = readFile.LinesManipulate(path=filePath)
+        infoSemesterWebFile = linesManipulateWebFile.readDetectSemester()
+        fileLines = linesManipulateWebFile.lineList
+        boolSameSemester = False
+        for idxx in range(len(infoSemesterWebFile)):
+            if (infoSemesterWebFile[idxx][0] == thisSemesterName):
+                boolSameSemester = True
+                indexSameSemester = idxx
+        if (infoSemesterWebFile == []): # If there does not exist semester parts
+            if (linesManipulateWebFile.fileStructure.items == []):
                 fileLines.append( strPartClasses + strSemester + strTable + strPartPosts)
             else:
-                fileLines.insert(firstTag, strPartClasses + strSemester + strTable + strPartPosts)
-        else: # If there exists semester parts
-            boolWebListLinesTag = [linesTag[idxx][1] for idxx in range(len(linesTag))]
-            trueLinesTag = list(compress(range(len(boolWebListLinesTag)), boolWebListLinesTag))
-            if (len(trueLinesTag) == 0): # If there does not exist a same semester
-                fileLines.insert(linesTag[0][0], strSemester + strTable + strPartPosts)
-        with open(to_target_folder + thisFileName, "w+") as fileAlter:
-            fileAlter.write(''.join(fileLines))
+                fileLines.insert(linesManipulateWebFile.fileStructure.items[0][1], strPartClasses + strSemester + strTable + strPartPosts)
+        elif not boolSameSemester: # If there exists semester parts and does not exist a same semester
+            fileLines.insert(infoSemesterWebFile[0][1], strSemester + strTable + strPartPosts)
+        with open(filePath, "w+") as fileAlter:
+            fileAlter.write('\n'.join(fileLines))
     else:
         with open(to_target_folder + thisCourseNumber + '.md', "w") as file:
             strPartHead = '''---
@@ -126,4 +110,4 @@ toc_sticky: true
 <div class=\'notice--warning\'>
 \t<p><i><a rel=\'license\' href=\'http://creativecommons.org/licenses/by-nc-sa/4.0/\'><img alt=\'Creative Commons License\' style=\'border-width:0\' src=\'https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\' /></a><br /> The content of this webpage is licensed under a <a rel=\'license\' href=\'http://creativecommons.org/licenses/by-nc-sa/4.0/\'>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</i></p>
 </div>\n'''
-            file.write(strPartHead + strSemester + strTable + strPartPosts)
+            file.write(strPartHead + strSemester + strTable + strPartPosts) 
